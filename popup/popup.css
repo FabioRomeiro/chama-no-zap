@@ -1,0 +1,42 @@
+.popup {
+	width: 300px;
+	padding: 8px;
+	background-color: #202c33;
+	color: #d9dee0;
+}
+
+.popup,
+.popup__form textarea {
+	font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+}
+
+.popup__header {
+	background-color: #202c33;
+}
+
+.popup__form label {
+	font-weight: bold;
+}
+
+.popup__form p {
+	margin: 8px 0;
+}
+
+.popup__form textarea {
+	width: 100%;
+	resize: vertical;
+	max-height: 100px;
+	background-color: #2a3942;
+	border-radius: 8px;
+	border: none;
+	padding: 8px;
+	color: #d1d7db;
+}
+
+.popup__form textarea::placeholder {
+	color: #d1d7db;
+}
+
+.popup__form textarea:focus {
+	outline: none;
+}
