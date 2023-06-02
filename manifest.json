@@ -1,0 +1,12 @@
+{
+	"manifest_version": 3,
+	"name": "Chama no zap",
+	"description": "Extenção para começar conversas no Whatsapp com números selecionados de textos e websites.",
+	"version": "1.0",
+	"permissions": [
+		"contextMenus"
+	],
+	"background": {
+		"service_worker": "service-worker.js"
+	}
+}
